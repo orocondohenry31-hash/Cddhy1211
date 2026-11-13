@@ -112,7 +112,7 @@
     var AC = window.AudioContext || window.webkitAudioContext, ac, master, timer, synthOn = false, nextT = 0, ci = 0;
     // CONFIGURACIÓN DE MÚSICA: cambia estos valores para usar tu propio archivo.
     // Guarda el audio dentro de la carpeta 'audio' del proyecto.
-    var DEFAULT_SONG = './src/musica.mp3';
+    var DEFAULT_SONG = 'src/musica.mp3';
     var DEFAULT_SONG_NAME = 'Nuestra canción';
     var custom = null, audioEl = null, playing = false, positiveMusicTimer = null;
     var CH = [[50, 57, 62, 66], [45, 52, 57, 61], [47, 54, 59, 62], [42, 49, 54, 57], [43, 50, 55, 59], [50, 57, 62, 66], [43, 50, 55, 59], [45, 52, 57, 61]];
